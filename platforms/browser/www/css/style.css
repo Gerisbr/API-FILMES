@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+    background-color: #000;
+    background-image: url("../percy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(65%);
+
+    color: #fff;
+}
+.cabecalho {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 86px;
+    
+}
+
+.cabecalho:hover{
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.lista__filmes {
+    display: flex;
+   
+}
+
+.lista__filmes {
+    list-style: none;
+    padding: 30px;
+
+}
+
+.link--filmes-sugeridos {
+    text-decoration: none;
+    padding: 16px;
+
+
+    color: white;
+    font-size: 12px;
+
+}
+
+.conteudo__filme {
+   
+    margin-top: 250px;
+}
+
+.descricao {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 1px;
+    font-size: 20px;
+    line-height: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", 
+      Calibri, "Trebuchet MS", sans-serif;
+}
+.img-bb {
+    width: 100%;
+}
+
+.frase-filmes {
+    color: #fff;
+    font-size: 50px;
+}
+button {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 280px;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-sugerir{
+    font-size: 42px;
+    box-shadow: inset 0 0 30px rgb(97, 96, 96);
+    font-family: "Gill Sans", "Gill Sans MT", 
+      Calibri, "Trebuchet MS", sans-serif;
+}
+
+button::after {
+    content: url("../plus.png");
+    padding-top: 5px;
+    font-size: 16px;
+    background-color: orangered
+  }
+ 
+  
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+
+    color: #fff;
+}
+
+footer {
+    padding-top: 130px;
+    font-size: 10px;
+    text-align: center;
+}
