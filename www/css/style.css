@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+    background-color: rgb(241, 235, 235);
+    background-image: url("../img/capas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(65%);
+
+    color: rgb(255, 255, 255);
+}
+.cabecalho {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 86px;
+    
+}
+
+.cabecalho:hover{
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.lista__filmes {
+    display: flex;
+   
+}
+
+.lista__filmes {
+    list-style: none;
+    padding: 30px;
+
+}
+
+.link--filmes-sugeridos {
+    text-decoration: none;
+    padding: 16px;
+
+
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+
+}
+
+.conteudo__filme {
+   
+    margin-top: 250px;
+}
+
+.descricao {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 10px;
+    font-size: 25px;
+    line-height: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", 
+      Calibri, "Trebuchet MS", sans-serif;
+}
+.img-bb {
+    width: 100%;
+}
+
+.frase-filmes {
+    color: rgb(243, 21, 158);
+    font-size: 50px;
+}
+button {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 100px;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-sugerir{
+    font-size: 30px;
+    box-shadow: inset 0 0 30px rgb(19, 119, 250);
+    font-family: "Gill Sans", "Gill Sans MT", 
+      Calibri, "Trebuchet MS", sans-serif;
+}
+
+button::after {
+    content: url("../plus.png");
+    padding-top: 2px;
+    font-size: 10px;
+    background-color: orangered
+  }
+ 
+  
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+
+    color: rgb(32, 142, 206);
+}
+
+footer {
+    padding-top: 50px;
+    font-size: 5px;
+    text-align: center;
+}
